@@ -1220,8 +1220,15 @@ option {
 <link rel="me" href="https://www.blogger.com/profile/15608974881704832199" />
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
-</head>
-<body>
+</head><script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+                location.reload();
+            }
+            return false;
+    };
+    </script>
+<body oncontextmenu="return false">
 <ul class="circles">
                     <li></li>
                     <li></li>
